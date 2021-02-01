@@ -1,5 +1,6 @@
 const sqlite3 = require('sqlite3');
 const { open } = require('sqlite');
+//My project
 class User{
     constructor(name, age, number){
         this.name=name;
